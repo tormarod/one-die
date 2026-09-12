@@ -1,0 +1,20 @@
+# Godot's import cache and reimported assets. Regenerated on open, and its paths are absolute, so a
+# committed copy is wrong on every other machine. The `.import` files beside each asset are NOT here
+# on purpose — those hold the import settings and belong in the repo.
+game/.godot/
+
+# Android build template, only present once one is installed.
+game/android/
+
+# Export presets carry absolute paths to the output and to the signing keys.
+game/export_presets.cfg
+
+# Aseprite's session backups.
+art/*.aseprite-session
+art/backup/
+
+# The exports themselves. The repo holds the source, not the build.
+build/
+*.exe
+*.pck
+*.zip
