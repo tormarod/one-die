@@ -1,20 +1,20 @@
-# Godot's import cache and reimported assets. Regenerated on open, and its paths are absolute, so a
-# committed copy is wrong on every other machine. The `.import` files beside each asset are NOT here
-# on purpose — those hold the import settings and belong in the repo.
-game/.godot/
+# Godot 4.2+ specific ignores
+~*.dll
 
-# Android build template, only present once one is installed.
-game/android/
+# Godot 4+ specific ignores
+.godot/
+.nomedia
 
-# Export presets carry absolute paths to the output and to the signing keys.
-game/export_presets.cfg
+# Godot-specific ignores
+.import/
+export.cfg
+export_credentials.cfg
+*.tmp
 
-# Aseprite's session backups.
-art/*.aseprite-session
-art/backup/
+# Imported translations (automatically generated from CSV files)
+*.translation
 
-# The exports themselves. The repo holds the source, not the build.
-build/
-*.exe
-*.pck
-*.zip
+# Mono-specific ignores
+.mono/
+data_*/
+mono_crash.*.json
