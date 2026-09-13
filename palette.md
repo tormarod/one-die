@@ -25,34 +25,35 @@ real curves will mush.
 
 ## Palette
 
-Picked from https://lospec.com/palette-list — something dark and warm.
+**Herbs n Spices** — 16 colores, de Qirlfriend.
+Fuente: https://lospec.com/palette-list/herbs-n-spices
 
-**Name:** Herbs n spices  
-**Source:** lospec.com/palette-list/herbs-n-spices  
-**Author:** Qirlfriend  
-**Colours:** 16
+Ordenados de oscuro a claro:
 
-```
-#593a31
-#39202e
-#613140
-#83443e
-#c98d3f
-#dac282
-#9a945c
-#6b6657
-#384150
-#6e7e8d
-#90b5c6
-#f5efe8
-#ab99a4
-#55516f
-#463554
-#17111a 
-```
+​```
+#17111a  #39202e  #463554  #384150
+#613140  #593a31  #55516f  #83443e
+#6b6657  #6e7e8d  #9a945c  #c98d3f
+#ab99a4  #90b5c6  #dac282  #f5efe8
+​```
 
-Load it into Aseprite as the project palette, so picking a colour that is not on this list is not
-something you can do by accident.
+### Las rampas
+
+- **Azul:** `384150` → `6e7e8d` → `90b5c6`
+- **Cálida:** `593a31` → `83443e` → `c98d3f` → `dac282`
+- **Oliva:** `6b6657` → `9a945c`
+- **Oscuros:** `17111a`, `39202e`, `463554`, `55516f`
+
+### Dos reglas que salen de esta paleta
+
+1. **El fondo es `17111a` o `39202e`.** Nunca uno de los cuatro que rondan el 25 de brillo
+   (`463554`, `384150`, `613140`, `593a31`): son el extremo oscuro de cuatro rampas distintas y,
+   sin color, son el mismo. Si el fondo fuera uno, los otros tres desaparecerían encima.
+2. **`c98d3f` es el único color gritón.** Es el más saturado con diferencia, y el ojo va ahí
+   primero siempre. Guárdalo para lo que quieras que el jugador mire. Si lo usas en todo, no
+   significa nada.
+
+Cárgala en Aseprite (`.gpl` desde Lospec) para no poder elegir un color de fuera por accidente.
 
 ## The rule
 
