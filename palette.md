@@ -27,14 +27,28 @@ real curves will mush.
 
 Picked from https://lospec.com/palette-list — something dark and warm.
 
-**Name:**
-**Source:**
-**Colours:**
+**Name:** Herbs n spices  
+**Source:** lospec.com/palette-list/herbs-n-spices  
+**Author:** Qirlfriend  
+**Colours:** 16
 
 ```
-#
-#
-#
+#593a31
+#39202e
+#613140
+#83443e
+#c98d3f
+#dac282
+#9a945c
+#6b6657
+#384150
+#6e7e8d
+#90b5c6
+#f5efe8
+#ab99a4
+#55516f
+#463554
+#17111a 
 ```
 
 Load it into Aseprite as the project palette, so picking a colour that is not on this list is not
