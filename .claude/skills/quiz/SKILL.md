@@ -9,8 +9,8 @@ Find out what he actually knows, which is rarely what he thinks he knows.
 
 ## Before asking
 
-Read `notes/` for the week in question, and the code under `game/` if there is any. Pitch the
-questions at what he actually did, not at a generic Godot syllabus.
+Read `notes/` for the week in question, and the project's C# scripts and scenes if there are any.
+Pitch the questions at what he actually did, not at a generic Godot syllabus.
 
 ## How to run it
 
@@ -19,7 +19,7 @@ questions at what he actually did, not at a generic Godot syllabus.
 - **Do not reveal the answer with the question**, and do not confirm after each one — it turns into a
   conversation and he stops thinking. Take the answer, say "next", move on.
 - **Six to eight questions.** Mix three kinds:
-  - *Recall*: what does `_physics_process` guarantee that `_process` does not?
+  - *Recall*: what does `_PhysicsProcess` guarantee that `_Process` does not?
   - *Application*: you want the die to flash when clicked and it does nothing. Where do you look first?
   - *Judgement*: you have a value used by three scripts. Where does it live, and why not the other two
     places?
@@ -28,7 +28,7 @@ questions at what he actually did, not at a generic Godot syllabus.
 ## After
 
 Score it. Then, and this is the point, **name the gaps** — not "you got 5 of 8" but "signals are
-solid, the node lifecycle is not: you think `_ready` runs before children exist, and it runs after."
+solid, the node lifecycle is not: you think `_Ready` runs before children exist, and it runs after."
 
 Finish with the one thing to reread, and where.
 

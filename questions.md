@@ -1,7 +1,7 @@
 # Questions
 
 Where a question goes when the one-hour rule fires: twenty minutes alone, then the docs, then a search
-with "godot 4" in it. After an hour, write it here, skip the item, and move on.
+with "godot 4" and "C#" in it. After an hour, write it here, skip the item, and move on.
 
 Bring a batch of these to a session rather than interrupting yourself five separate times. Answering
 them one at a time as they arrive is how an evening disappears.
@@ -14,8 +14,8 @@ is scope.
 ## Open
 
 <!-- One line each. Date it, say what you were doing, and what you expected instead.
-     e.g.  2026-09-19 · week 1 · Why does $Sprite2D work in _ready but not in _init?
-                                  Expected the node to exist as soon as the script does. -->
+     e.g.  2026-09-19 · week 1 · Why does GetNode<Sprite2D>() work in _Ready but not in the constructor?
+                                  Expected the node to exist as soon as the object does. -->
 
 ## Answered
 

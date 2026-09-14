@@ -29,4 +29,4 @@ writing.*
 
 **Time spent:**
 **Done when I could:** see a one-pixel white square render as a hard-edged square rather than a soft
-grey smudge.
+grey smudge — and see a C# script's `GD.Print` show up in Godot's output.

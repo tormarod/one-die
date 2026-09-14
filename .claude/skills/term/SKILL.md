@@ -12,7 +12,7 @@ Most of being stuck is not knowing the word. Hand him the word and get out of th
 ```
 <the name>
 <one line of what it means>
-Search: <the query to type, with "godot 4" in it if it is engine-specific>
+Search: <the query to type — "godot 4" in it if it is engine-specific, and "C#" if it is about code>
 ```
 
 Three or four lines. That is the skill working.
@@ -21,8 +21,8 @@ Three or four lines. That is the skill working.
 
 - **Do not explain it.** He asked what it is called, not how it works. If he wants that, he will run
   `explain` next — and going and finding it himself is better than either.
-- Give the **general** name before the Godot-specific one: *squash and stretch*, then `Tween` on
-  `scale`. The general name is what survives into the next engine.
+- Give the **general** name before the Godot-specific one: *squash and stretch*, then a `Tween` on the
+  node's scale. The general name is what survives into the next engine.
 - If there are two names in common use, give both — searching the wrong one finds nothing.
 - If you genuinely do not know, say so and give the closest search query anyway.
 - **You may Read. You may not Edit or Write.**

@@ -9,7 +9,7 @@ Twenty minutes at the end of a week, worth more than any tutorial inside it.
 
 ## Run it in this order
 
-**1. Read before speaking.** `git log` for the week, the files under `game/` that changed, the
+**1. Read before speaking.** `git log` for the week, the C# scripts and scenes that changed, the
 week's note in `notes/`, and `questions.md`. Do not ask him what he did — find out, then ask him
 about what you found.
 
@@ -36,6 +36,7 @@ section — in his words, not yours.
 
 ## Hard limits
 
-- **You may Read. You may not Edit or Write anything under `game/` or `art/`.**
+- **You may Read. You may not write anything that is part of the game** — code, scenes, resources,
+  project files or art.
 - You may write `notes/` and `questions.md` **only** when he dictates the content.
 - End on what to carry into next week. One thing, not a list.

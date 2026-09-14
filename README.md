@@ -1,6 +1,6 @@
 # One Die
 
-Learning Godot 4, GDScript and pixel art by shipping one small, finished dice game in six weeks.
+Learning Godot 4, C# and pixel art by shipping one small, finished dice game in six weeks.
 
 **The plan, week by week:** https://claude.ai/code/artifact/eab6c62f-fb99-42c1-8550-ada3a7a711e2
 
@@ -10,17 +10,20 @@ One enemy, one table, one screen. Roll three dice. Spend each as an attack or a 
 back. Someone reaches zero. Title screen, play, win or lose, restart.
 
 That is all of it. It is a rehearsal for Roguedice's combat view without being Roguedice, and nothing
-in it has to be kept.
+in it has to be kept. Roguedice's Godot side is C# too, so everything learned here carries across.
 
 ## Start here
 
-1. **Create the Godot project yourself**, in `game/`. Godot 4.x standard build — not the .NET one.
-   Doing this by hand is week 0's first task, which is why it is not already here.
+1. **The Godot project is the repo root**, created by hand with the **.NET build** of Godot 4.7.2. The
+   standard build cannot run C#.
 2. Set it up: viewport `320` × `180`, stretch mode `canvas_items`, aspect `keep`, and
    **Rendering → Textures → Default Texture Filter → `Nearest`**. That last one is what makes pixel
    art crisp instead of a soft grey smudge, and it is the mistake everybody makes first.
-3. Choose a palette on [Lospec](https://lospec.com/palette-list) and write it into `palette.md`.
-4. `git init`, and commit the empty project.
+3. **Point Godot at VS Code:** *Editor Settings → Dotnet → Editor → External Editor → Visual Studio
+   Code*. Godot's own script editor only colours C# — no autocomplete, no errors.
+4. Keep `one-die.csproj` on `net10.0`. .NET 10 is the only version installed.
+5. Choose a palette on [Lospec](https://lospec.com/palette-list) and write it into `palette.md`.
+6. `git init`, and commit the empty project.
 
 ## Scope rules
 
@@ -39,14 +42,15 @@ These are the plan. The weeks are only where the work goes.
 
 | Path | What it holds |
 |---|---|
-| `game/` | The Godot project. Created by hand in week 0. |
-| `art/` | Aseprite sources. Exported PNGs go into `game/`, the `.aseprite` files stay here. |
+| repo root | The Godot project: `project.godot`, `one-die.csproj`, and the scenes and C# scripts. |
+| `art/` | Aseprite sources and exported sprites. See `art/README.md`. |
 | `notes/` | One file per week: what I learned, what confused me. Copy `week-0.md` as a template. |
 | `palette.md` | The two decisions everything else depends on: resolution and palette. |
 | `questions.md` | Where a question goes when the one-hour rule fires. |
 
 ## The one-hour rule
 
-Twenty minutes alone, then the official docs, then search with "godot 4" in the query. After an hour,
-stop: write the question in `questions.md`, skip the item, move on. One bug must never eat an evening.
-That is how hobby projects die.
+Twenty minutes alone, then the official docs, then search with "godot 4" and "C#" in the query. Most
+answers will still be GDScript — the docs show the C# version in a tab beside most examples, which is
+the quickest way to translate. After an hour, stop: write the question in `questions.md`, skip the
+item, move on. One bug must never eat an evening. That is how hobby projects die.
