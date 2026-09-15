@@ -25,33 +25,35 @@ real curves will mush.
 
 ## Palette
 
-**Herbs n Spices** — 16 colores, de Qirlfriend.
-Fuente: https://lospec.com/palette-list/herbs-n-spices
+**Summers Past-16** — 16 colores, de keidding.
+Fuente: https://lospec.com/palette-list/summers-past-16
 
 Ordenados de oscuro a claro:
 
 ​```
-#17111a  #39202e  #463554  #384150
-#613140  #593a31  #55516f  #83443e
-#6b6657  #6e7e8d  #9a945c  #c98d3f
-#ab99a4  #90b5c6  #dac282  #f5efe8
+#320011  #5f3a60  #933942  #c33846
+#627057  #876672  #5e80b2  #c66f5e
+#8da24e  #e78c5b  #6db7c3  #b7a39d
+#d2cb3e  #e8bf92  #f7d554  #ece8c2
 ​```
 
 ### Las rampas
 
-- **Azul:** `384150` → `6e7e8d` → `90b5c6`
-- **Cálida:** `593a31` → `83443e` → `c98d3f` → `dac282`
-- **Oliva:** `6b6657` → `9a945c`
-- **Oscuros:** `17111a`, `39202e`, `463554`, `55516f`
+- **Vino/rojo:** `320011` → `933942` → `c33846` → `876672`
+- **Cálida (terracota):** `c66f5e` → `e78c5b` → `b7a39d` → `e8bf92`
+- **Oliva/amarillo:** `627057` → `8da24e` → `d2cb3e` → `f7d554`
+- **Azul/verde-azulado:** `5e80b2` → `6db7c3`
+- **Extremos:** `5f3a60` (violeta oscuro) y `ece8c2` (crema casi blanco) — no encajan en ninguna
+  rampa, son los dos casos límite de la paleta.
 
 ### Dos reglas que salen de esta paleta
 
-1. **El fondo es `17111a` o `39202e`.** Nunca uno de los cuatro que rondan el 25 de brillo
-   (`463554`, `384150`, `613140`, `593a31`): son el extremo oscuro de cuatro rampas distintas y,
-   sin color, son el mismo. Si el fondo fuera uno, los otros tres desaparecerían encima.
-2. **`c98d3f` es el único color gritón.** Es el más saturado con diferencia, y el ojo va ahí
-   primero siempre. Guárdalo para lo que quieras que el jugador mire. Si lo usas en todo, no
-   significa nada.
+1. **El fondo es `320011`.** Es el único tono casi negro de la paleta: el siguiente más oscuro,
+   `5f3a60`, ya es un morado claramente reconocible, así que aquí no hay dos oscuros que se puedan
+   confundir entre sí.
+2. **`f7d554` es el único color gritón.** Es el de mayor diferencia entre su canal más claro y el
+   más oscuro de los 16, y el más brillante con diferencia. Guárdalo para lo que quieras que el
+   jugador mire primero. Si lo usas en todo, no significa nada.
 
 Cárgala en Aseprite (`.gpl` desde Lospec) para no poder elegir un color de fuera por accidente.
 

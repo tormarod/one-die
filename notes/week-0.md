@@ -5,7 +5,7 @@ writing.*
 
 ## What I did
 
-- First 2 steps of sant11 beginner tutorial
+- First 2 steps of sant11 beginner tutorial and created the first sprites through it
 - Created My First 2D game (Godot's docs) in GDscript and also c#
 - Setup the whole project
 
