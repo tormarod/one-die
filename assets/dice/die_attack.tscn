@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bxvu83i61q4y7"]
+
+[ext_resource type="Texture2D" uid="uid://dlty7gpk15hgb" path="res://assets/dice/die_attack-top.png" id="1_jah7f"]
+
+[node name="DieAttack" type="Node2D" unique_id=457178642]
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=283471502]
+texture = ExtResource("1_jah7f")

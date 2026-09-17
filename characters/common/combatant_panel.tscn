@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://b35n6keb7c51c"]
+
+[ext_resource type="Script" uid="uid://cer1ta3pjytu0" path="res://characters/common/CombatantPanel.cs" id="1_p4xpg"]
+[ext_resource type="Texture2D" uid="uid://dusllh5jjh55x" path="res://assets/shield/shield.png" id="2_21iye"]
+
+[node name="CombatantPanel" type="PanelContainer" unique_id=930885744]
+custom_minimum_size = Vector2(100, 40)
+custom_maximum_size = Vector2(100, 40)
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_p4xpg")
+metadata/_edit_group_ = true
+
+[node name="Background" type="ColorRect" parent="." unique_id=1251847348]
+layout_mode = 2
+
+[node name="Portrait" type="TextureRect" parent="." unique_id=503560571]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 4
+
+[node name="HitpointsBar" type="TextureProgressBar" parent="." unique_id=1196204660]
+layout_mode = 2
+
+[node name="Block" type="HBoxContainer" parent="." unique_id=335773892]
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="BlockSprite" type="TextureRect" parent="Block" unique_id=347979150]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+texture = ExtResource("2_21iye")
+expand_mode = 2
+
+[node name="BlockAmount" type="Label" parent="Block" unique_id=472113297]
+custom_minimum_size = Vector2(16, 8)
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 4
+text = "Block"
